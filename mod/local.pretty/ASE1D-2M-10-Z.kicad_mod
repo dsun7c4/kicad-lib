@@ -1,4 +1,6 @@
-(module ASE1D-2M-10-Z (layer F.Cu) (tedit 5E03F660)
+(module ASE1D-2M-10-Z (layer F.Cu) (tedit 5E07E742)
+  (descr "Slide switch spdt vertical")
+  (tags SPDT)
   (fp_text reference REF** (at 2.54 -3.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
