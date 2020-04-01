@@ -1,0 +1,18 @@
+# Temporary files from emacs
+*~
+
+# For solid models using freecad: http://www.freecadweb.org/
+# Backup files
+*.fcstd1
+*.FCStd1
+
+
+# For PCBs designed using KiCAD: http://www.kicad-pcb.org/
+# Temporary files
+*bak
+*.bck
+*.000
+
+# Generated files for OSH Park
+*.zip
+oshpark
