@@ -1,6 +1,6 @@
 (module SW_DIP_SPSTx04_Slide_W5.80mm_P1.27mm_JPin_HandSolder (layer F.Cu) (tedit 618BD498)
-  (descr "SMD 4x-dip-switch SPST Copal_CHS-04A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin")
-  (tags "SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin")
+  (descr "SMD 4x-dip-switch SPST CTS 218-4LPSTJ, Slide, body size 5.8x6.25mm, SMD, JPin")
+  (tags "SMD DIP Switch SPST Slide SMD JPin")
   (attr smd)
   (fp_text reference REF** (at 0 -4.235) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
