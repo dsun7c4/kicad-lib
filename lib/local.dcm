@@ -61,6 +61,11 @@ D PWM Fan Connector 4-pin
 K CONN FAN PWM
 $ENDCMP
 #
+$CMP CX205
+D OCXO Stratum 3E High Stability
+K OCXO
+$ENDCMP
+#
 $CMP CX210
 D OCXO Stratum 3E High Stability
 K OCXO
