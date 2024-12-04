@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "7dcbdbe1-68f7-4e1f-a995-b993055d6b0f"
+  Name: "PLASTIC-GREEN-01"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0,0.25098,0.105882,1)"
+    DiffuseColor: "(0.341176,0.682353,0.447059,1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    Shininess: "0.25"
+    SpecularColor: "(0.176471,0.105882,0.196078,1)"
+    Transparency: "0"

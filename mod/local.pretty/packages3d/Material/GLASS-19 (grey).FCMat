@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "e5afbf31-08db-467d-aa68-0f905b95df9f"
+  Name: "GLASS-19 (grey)"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.0784314,0.0901961,0.0901961,1)"
+    DiffuseColor: "(0.4,0.443137,0.458824,1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    Shininess: "0.127273"
+    SpecularColor: "(0.572549,0.65098,0.811765,1)"
+    Transparency: "0.37"

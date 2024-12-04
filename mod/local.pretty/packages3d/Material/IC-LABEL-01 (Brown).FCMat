@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "0fe3898e-2999-415e-b07c-b809f3a18b00"
+  Name: "IC-LABEL-01 (Brown)"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.054902,0.054902,0.054902,1)"
+    DiffuseColor: "(0.694118,0.666667,0.600000,1)"
+    EmissiveColor: "(0,0,0,1)"
+    Shininess: "0.01"
+    SpecularColor: "(0,0,0,1)"
+    Transparency: "0"

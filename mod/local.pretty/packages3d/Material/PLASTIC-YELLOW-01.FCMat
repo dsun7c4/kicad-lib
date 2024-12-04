@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "541a6429-c2dd-4592-b02d-991da401a40e"
+  Name: "PLASTIC-YELLOW-01"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.52549,0.333333,0,1)"
+    DiffuseColor: "(0.835294,0.682353,0.0666667,1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    Shininess: "0.25"
+    SpecularColor: "(0.160784,0.203922,0.321569,1)"
+    Transparency: "0"

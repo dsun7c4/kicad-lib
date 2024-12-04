@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "7b7d3574-7b91-412d-a00a-98c1895d7f97"
+  Name: "RES-SMD-01 (Black)"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.050980,0.054902,0.066667,1)"
+    DiffuseColor: "(0.082353,0.086275,0.094118,1)"
+    EmissiveColor: "(0,0,0,1)"
+    Shininess: "0.3"
+    SpecularColor: "(0.066667,0.062745,0.062745,1)"
+    Transparency: "0"

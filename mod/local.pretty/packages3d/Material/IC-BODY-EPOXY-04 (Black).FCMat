@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "5497c1ab-f69d-47f4-88df-9e7f938a372d"
+  Name: "IC-BODY-EPOXY-04 (Black)"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.054902,0.039216,0.043137,1)"
+    DiffuseColor: "(0.14902,0.145098,0.145098,1)"
+    EmissiveColor: "(0,0,0,1)"
+    Shininess: "0.35"
+    SpecularColor: "(0.329412,0.313725,0.305882,1)"
+    Transparency: "0"

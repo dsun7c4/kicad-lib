@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "8c12c1d7-befd-4dd9-8f87-4e85d884bce1"
+  Name: "BOARD-GREEN-02"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.0705882,0.301961,0.121569,1)"
+    DiffuseColor: "(0.0705882,0.301961,0.121569,1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    Shininess: "0.4"
+    SpecularColor: "(0.0705882,0.301961,0.121569,1)"
+    Transparency: "0"

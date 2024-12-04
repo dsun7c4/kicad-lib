@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "4d050b0f-b827-402b-8c33-7cca6c4fae8f"
+  Name: "PLASTIC-BLUE-01"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.137255,0.219608,0.321569,1)"
+    DiffuseColor: "(0.137255,0.403922,0.729412,1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    Shininess: "0.25"
+    SpecularColor: "(0.360784,0.380392,0.023529,1)"
+    Transparency: "0"

@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "128dbc8e-90cb-4834-8310-b5068e21e6f1"
+  Name: "PLASTIC-WHITE-01"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.466667,0.439216,0.364706,1)"
+    DiffuseColor: "(0.898039,0.894118,0.815686,1)"
+    EmissiveColor: "(0,0,0,1)"
+    Shininess: "0.25"
+    SpecularColor: "(0.047059,0.054902,0.109804,1)"
+    Transparency: "0"

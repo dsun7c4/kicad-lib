@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "ae5eb1e9-1edd-4ecb-b6d3-fb82969a391e"
+  Name: "PIN-02 (Gold)"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.396078,0.266667,0.129412,1)"
+    DiffuseColor: "(0.862745,0.741176,0.498039,1)"
+    EmissiveColor: "(0,0,0,1)"
+    Shininess: "0.4"
+    SpecularColor: "(0.137255,0.145098,0.184314,1)"
+    Transparency: "0"
