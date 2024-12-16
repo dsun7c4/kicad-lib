@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Pentawatt, Neutral, Staggered, Verical, TO220-5, T05D,")
-	(tags "Pentawatt, Neutral, Staggered, Verical, TO220-5, T05D,")
+	(descr "Staggered, Vertical, TO220-5")
+	(tags "Staggered, Vertical, TO220-5")
 	(property "Reference" "REF**"
 		(at 0 -1.016 0)
 		(layer "F.SilkS")
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -327,7 +330,7 @@
 		(remove_unused_layers no)
 		(uuid "b01d7e07-02a7-4766-aa12-2dff014a1659")
 	)
-	(model "${KICAD_USER_MOD_DIR}/local.pretty/packages3d/to220-5-Verticle_NDH.wrl"
+	(model "${KICAD_USER_MOD_DIR}/local.pretty/packages3d/to220-5-Vertical_NDH.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
