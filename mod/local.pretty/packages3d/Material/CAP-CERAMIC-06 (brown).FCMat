@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "d461daf2-5e7e-47ff-8ee4-975b5010e7b2"
+  Name: "CAP-CERAMIC-06 (brown)"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.172549,0.12549,0.0705882,1)"
+    DiffuseColor: "(0.380392,0.270588,0.215686,1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    Shininess: "0.15"
+    SpecularColor: "(0.223529,0.223529,0.223529,1)"
+    Transparency: "0"
