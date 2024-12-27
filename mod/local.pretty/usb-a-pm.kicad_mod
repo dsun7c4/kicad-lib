@@ -73,8 +73,18 @@
 		(uuid "a59e3130-7ae2-48b2-914f-404e1c3406f2")
 	)
 	(fp_line
-		(start -8 -2.624)
+		(start -8 -9.6)
 		(end -8 -12.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f95a0e22-3efd-440c-ae7c-98fa2335a30c")
+	)
+	(fp_line
+		(start -8 -2.624)
+		(end -8 -5.7)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -83,7 +93,37 @@
 		(uuid "63fe122d-45a9-4a64-979f-8d6cf60a8a99")
 	)
 	(fp_line
+		(start -4.262 -12.2)
+		(end -3.5 -10.93)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "741b84f1-eea7-4f49-b66b-2d6850438ec7")
+	)
+	(fp_line
+		(start -3.5 -10.93)
+		(end -2.738 -12.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55d8ff6d-66e0-4b7b-92af-174cdfaf6d5e")
+	)
+	(fp_line
 		(start 8 -12.2)
+		(end 8 -9.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8060e83a-fb8a-417e-bf33-abacf1802a4c")
+	)
+	(fp_line
+		(start 8 -5.7)
 		(end 8 -2.624)
 		(stroke
 			(width 0.15)
@@ -271,6 +311,26 @@
 		)
 		(layer "F.Fab")
 		(uuid "ddc98802-f921-4525-962e-2ffb090c865c")
+	)
+	(fp_line
+		(start -4.262 -12.2)
+		(end -3.5 -10.93)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78494438-9b4d-4b05-8e50-51d7bd46788e")
+	)
+	(fp_line
+		(start -3.5 -10.93)
+		(end -2.738 -12.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc0ddc55-2d7b-4a05-968d-caac64c5306d")
 	)
 	(fp_line
 		(start 8 -12.2)
@@ -463,9 +523,10 @@
 		(uuid "f5c80d11-e322-4c84-b6fb-4ca8531e5c65")
 		(members "1616c8cd-59e1-4298-8508-efe03a416769" "1d607504-f3a2-4402-9aa7-641526bce587"
 			"2859250f-37a8-484a-954f-b27499fd97b5" "66f91023-4522-4d09-a4e7-912c41d96ca3"
-			"6c6fb931-47a7-45db-9d9a-29c55c403f57" "7b300e68-3c24-4b35-89e7-d96b64aef262"
-			"a5ab4add-1ed8-4ef2-a26c-fc950c188495" "b1e1334a-aa48-4ac8-8184-df7a1d4bd965"
-			"c8f0eb87-7e77-4fcb-b581-507c643f0d26" "d1cf6b05-0b78-4182-86eb-c3d9a5b5615d"
+			"6c6fb931-47a7-45db-9d9a-29c55c403f57" "78494438-9b4d-4b05-8e50-51d7bd46788e"
+			"7b300e68-3c24-4b35-89e7-d96b64aef262" "a5ab4add-1ed8-4ef2-a26c-fc950c188495"
+			"b1e1334a-aa48-4ac8-8184-df7a1d4bd965" "c8f0eb87-7e77-4fcb-b581-507c643f0d26"
+			"cc0ddc55-2d7b-4a05-968d-caac64c5306d" "d1cf6b05-0b78-4182-86eb-c3d9a5b5615d"
 			"ddc98802-f921-4525-962e-2ffb090c865c" "df7fcdba-8eac-4ebc-9b67-0096fce6635a"
 		)
 	)
