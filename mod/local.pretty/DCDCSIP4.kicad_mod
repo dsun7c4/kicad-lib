@@ -1,27 +1,260 @@
-(module DCDCSIP4 (layer F.Cu) (tedit 5DF14E9A)
-  (descr "Unregulated DC-DC converter")
-  (tags DCDC)
-  (fp_text reference REF** (at 4.064 -5.588) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value DC-DC (at 3.81 2.286) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 10.1 -5.23) (end -2.4 -5.23) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.4 1.77) (end -2.4 -5.23) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 10.1 1.77) (end 10.1 -5.23) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 10.1 1.77) (end -2.4 1.77) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 9.6 1.27) (end -1.9 1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start 9.6 -4.73) (end -1.9 -4.73) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.9 -4.73) (end -1.9 1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start 9.6 1.27) (end 9.6 -4.73) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole rect (at 0 0) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 2.54 0) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask))
-  (pad 3 thru_hole circle (at 5.08 0) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask))
-  (pad 4 thru_hole circle (at 7.62 0) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask))
-  (model ${KILOCALMOD}/local.pretty/packages3d/RO-xxxxS.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "DCDCSIP4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Unregulated DC-DC converter")
+	(tags "DCDC")
+	(property "Reference" "REF**"
+		(at 4.064 -5.588 0)
+		(layer "F.SilkS")
+		(uuid "f0d46e95-1f78-4074-b26c-9c30d55739b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DC-DC"
+		(at 3.81 2.286 0)
+		(layer "F.Fab")
+		(uuid "ebf81746-d36e-430e-a074-550fdaf2f865")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f139f8d6-d6e2-43e3-8070-b68ce4e39c15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cc43b47-18cb-409c-8068-afb17ee38d27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92aab9d1-1e09-4259-921d-eb20ae3a1c68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.9 -4.73)
+		(end -1.9 1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f97c1e1e-eed6-4bb5-8a4a-ced177dbf63a")
+	)
+	(fp_line
+		(start 9.6 -4.73)
+		(end -1.9 -4.73)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84e5fda9-bbbb-4855-bda5-843601b80027")
+	)
+	(fp_line
+		(start 9.6 1.27)
+		(end -1.9 1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4e81748-9363-4397-b906-d682328beee6")
+	)
+	(fp_line
+		(start 9.6 1.27)
+		(end 9.6 -4.73)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77b9cfcf-2918-4773-89d1-86f5ba64715e")
+	)
+	(fp_line
+		(start -2.4 1.77)
+		(end -2.4 -5.23)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d879311-0e8a-4598-90c2-2d5e7c7ed28c")
+	)
+	(fp_line
+		(start 10.1 -5.23)
+		(end -2.4 -5.23)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "61cb301b-8bc6-4e94-8f61-2470a7fd3a1e")
+	)
+	(fp_line
+		(start 10.1 1.77)
+		(end -2.4 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b80e152b-1156-4963-b921-ec2c438c7aa2")
+	)
+	(fp_line
+		(start 10.1 1.77)
+		(end 10.1 -5.23)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb7c4956-dcc2-4486-bf73-126d8832655b")
+	)
+	(fp_line
+		(start -1.9 -4.73)
+		(end -1.9 0.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "396aa855-6fdd-4a2f-b484-6b1a01e5379b")
+	)
+	(fp_line
+		(start -0.9 1.27)
+		(end -1.9 0.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0640a315-7c79-47dc-afe2-a77d43d09ab5")
+	)
+	(fp_line
+		(start 9.6 -4.73)
+		(end -1.9 -4.73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27f46fee-77d1-44f9-ba9d-c1beb5e2acde")
+	)
+	(fp_line
+		(start 9.6 1.27)
+		(end -0.9 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5cbb573-e030-47bd-a413-c53f1a99cc89")
+	)
+	(fp_line
+		(start 9.6 1.27)
+		(end 9.6 -4.73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a6f19a7-9989-4d41-81f4-eed259d2082d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.6 -1.63 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5311948d-d082-47ba-933a-df5bdb635e21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4c68999-285d-4913-b769-6f4d4a56da99")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d7eec07-29fc-47d8-a2bc-ad078ef8545f")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a450e96e-3f8d-4191-af8f-741d6e5d9b01")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c943f63f-f8a5-424c-94b9-bdb7ec741bfe")
+	)
+	(group ""
+		(uuid "1793ecf2-0f4b-4532-bb75-b8cbf982eb60")
+		(members "0640a315-7c79-47dc-afe2-a77d43d09ab5" "27f46fee-77d1-44f9-ba9d-c1beb5e2acde"
+			"2a6f19a7-9989-4d41-81f4-eed259d2082d" "396aa855-6fdd-4a2f-b484-6b1a01e5379b"
+			"d5cbb573-e030-47bd-a413-c53f1a99cc89"
+		)
+	)
+	(model "${KILOCALMOD}/local.pretty/packages3d/RO-xxxxS.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
