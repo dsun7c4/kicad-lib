@@ -1,0 +1,15 @@
+﻿---
+# File created by FreeCAD 1.0.0 Revision: 38641 +468 (Git)
+General:
+  UUID: "14598a6d-a7d2-4209-a9c8-2b375f60a8e8"
+  Name: "RED-BODY"
+  License: "All rights reserved"
+AppearanceModels:
+  Basic Rendering:
+    UUID: "f006c7e4-35b7-43d5-bbf9-c5d572309e6e"
+    AmbientColor: "(0.478431,0.0705882,0.0352941,1)"
+    DiffuseColor: "(0.701961,0.101961,0.0509804,1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    Shininess: "0.25"
+    SpecularColor: "(0.301961,0.4,0.14902,1)"
+    Transparency: "0"
