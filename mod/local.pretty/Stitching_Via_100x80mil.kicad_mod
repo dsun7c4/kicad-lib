@@ -1,10 +1,76 @@
-(module Stitching_Via_100x80mil (layer F.Cu) (tedit 5659D0DF)
-  (fp_text reference REF** (at 0 2.159) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Stitching_Via_100x80mil (at 0 -2.032) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad ~ thru_hole circle (at 0 0) (size 2.54 2.54) (drill 2.032) (layers *.Cu *.Mask)
-    (zone_connect 2))
+(footprint "Stitching_Via_100x80mil"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.159 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ccee8915-1c57-4dc7-bdec-39d63daf384d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Stitching_Via_100x80mil"
+		(at 0 -2.032 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34461e68-1835-4de3-955a-bd58ab441619")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf9be207-97be-471c-8874-d5c0a9c7285d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "867f0353-100c-4e41-b0fc-78915fec6519")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "447b89d4-2941-4348-9fab-efc368e87573")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "~" thru_hole circle
+		(at 0 0)
+		(size 2.54 2.54)
+		(drill 2.032)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "cbc6419d-83ae-4015-9c54-efad016c8f52")
+	)
 )

@@ -1,31 +1,201 @@
-(module C_0805_HandSoldering (layer F.Cu) (tedit 5E150E52)
-  (descr "Capacitor SMD 0805, hand soldering")
-  (tags "capacitor 0805")
-  (attr smd)
-  (fp_text reference REF** (at 0 -2.1) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value C_0805_HandSoldering (at 0 2.1) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -2.1 -1) (end 2.1 -1) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.1 1) (end 2.1 1) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.1 -1) (end -2.1 1) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.1 -1) (end 2.1 1) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.5 -0.85) (end -0.5 -0.85) (layer F.SilkS) (width 0.15))
-  (fp_line (start -0.5 0.85) (end 0.5 0.85) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1 0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 -0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
-  (fp_line (start -1 -0.6) (end -1 0.6) (layer F.Fab) (width 0.1))
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 0.4 0.4) (thickness 0.06)))
-  )
-  (pad 2 smd rect (at 1.15 0) (size 1.3 1.25) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -1.15 0) (size 1.3 1.25) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "C_0805_HandSoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0805, hand soldering")
+	(tags "capacitor 0805")
+	(property "Reference" "REF**"
+		(at 0 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "e326034f-3bb2-4c35-a149-103aa2e13225")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_0805_HandSoldering"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "7c5b6069-9eab-41ec-9162-a8f6bf74fada")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b195f19-3181-47d1-897e-c3f9d68e467c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60d23693-cb85-4785-ad39-43e135d7c8ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "357bab64-9b9c-4a14-8bb7-0c3817f4537f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 0.85)
+		(end 0.5 0.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32c7ffea-2237-4fa5-bce0-30085a0a1551")
+	)
+	(fp_line
+		(start 0.5 -0.85)
+		(end -0.5 -0.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afbaf318-2b19-4532-a3c1-64abb73691ca")
+	)
+	(fp_line
+		(start -2.1 -1)
+		(end -2.1 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df2a577e-9798-44f0-9382-808570dde4f7")
+	)
+	(fp_line
+		(start -2.1 -1)
+		(end 2.1 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "696f8638-9f22-4338-9539-9f079e8420b0")
+	)
+	(fp_line
+		(start -2.1 1)
+		(end 2.1 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c8e6f16-fda0-4288-b82c-934d23d5de77")
+	)
+	(fp_line
+		(start 2.1 -1)
+		(end 2.1 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0dacb4a-5956-4eef-a2ac-3c3274a288cf")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5efa23ac-11f1-48f6-9fe9-bd90aad65598")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "841cba71-20eb-422b-8c1a-1cbf7ae0b6b4")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ade3b099-1dfd-4575-ada0-3288e921bb24")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7aa24f52-e991-4e91-8c17-6b6687b10d5a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f40492a3-da55-4971-a9a9-6858418c4112")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 0)
+		(size 1.3 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "368adde5-6621-42b5-900a-98198b6ee25c")
+	)
+	(pad "2" smd rect
+		(at 1.15 0)
+		(size 1.3 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "67f36b9c-92e6-407f-a6eb-ee9167f4d6d0")
+	)
+	(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1,9 +1,74 @@
-(module wire_50x30mil (layer F.Cu) (tedit 5ADFBBA2)
-  (fp_text reference REF** (at 0 -1.524) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value wire_50x30mil (at 0 -2.794) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 1.27 1.27) (drill 0.762) (layers *.Cu *.Mask))
+(footprint "wire_50x30mil"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.524 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c6fd236a-450d-46b2-b495-95bcf34bae85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "wire_50x30mil"
+		(at 0 -2.794 0)
+		(layer "F.Fab")
+		(uuid "804819a1-2995-44ff-bf81-19a77841c1df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3487b43-c7b2-4a0b-b247-d896e7142373")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9df6175f-8948-4692-8d29-51fe239085bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7986e195-0cc9-40c2-a14e-d4fade1683f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed33b77e-0e8a-4ffa-935b-c1ede5eb135f")
+	)
 )

@@ -1,12 +1,87 @@
-(module MountingHole_125mil (layer F.Cu) (tedit 561EF85B)
-  (descr "Mounting hole, NPTH 0.125in")
-  (tags "Mounting hole 0.125in")
-  (fp_text reference REF** (at 0 -4.572) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value MountingHole_125mil (at 0 4.699) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 0 0) (end 3.81 0) (layer Cmts.User) (width 0.381))
-  (pad "" np_thru_hole circle (at 0 0) (size 3.175 3.175) (drill 3.175) (layers *.Cu *.Mask))
+(footprint "MountingHole_125mil"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting hole, NPTH 0.125in")
+	(tags "Mounting hole 0.125in")
+	(property "Reference" "REF**"
+		(at 0 -4.572 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "30171a3b-fdd6-481e-883b-8e15f2e201c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_125mil"
+		(at 0 4.699 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ab269bb-ba4d-4bb2-8eee-213602a81a3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a37c7ecb-8f94-4443-ba87-926bce913f97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7942e7fc-1ee9-4642-a1fa-be4e197dbd97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c959db0b-450c-43e6-bf5c-6361ca063514")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3.81 0)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "9f246975-4a62-4c76-8f2d-3c814cd5c83b")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.175 3.175)
+		(drill 3.175)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ed723188-2756-4955-ad2d-6cea62a63d0f")
+	)
 )

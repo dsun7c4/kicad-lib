@@ -1,39 +1,273 @@
-(module TO92TO220 (layer F.Cu) (tedit 5DEFE193)
-  (descr "Regulator TO92/TO220 series LM78xxx")
-  (tags "TR TO92/TO220")
-  (fp_text reference REF** (at 3.81 -4.699 90) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value 78L06 (at -3.175 -2.286 90) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 0 3.81) (end 3.81 0) (layer F.SilkS) (width 0.15))
-  (fp_line (start 3.81 0) (end 3.81 -1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start 3.81 -1.27) (end 2.54 -2.54) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.54 -2.54) (end 0 -2.54) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0 -2.54) (end -2.54 0) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.54 0) (end -2.54 2.54) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.54 2.54) (end -1.27 3.81) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.27 3.81) (end 0 3.81) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.905 -4.445) (end 2.54 -4.445) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.54 -4.445) (end 2.54 4.445) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.54 4.445) (end 1.905 4.445) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.905 -4.445) (end 1.905 -4.445) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.905 -4.445) (end 1.905 4.445) (layer F.SilkS) (width 0.15))
-  (fp_line (start 1.905 4.445) (end -1.905 4.445) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.905 4.445) (end -1.905 -4.445) (layer F.SilkS) (width 0.15))
-  (pad 3 thru_hole circle (at 2.54 0) (size 1.6256 1.6256) (drill 0.8128) (layers *.Cu *.Mask))
-  (pad 3 thru_hole circle (at 0 -2.54) (size 2.032 2.032) (drill 1.143) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 0 0) (size 2.032 2.032) (drill 1.143) (layers *.Cu *.Mask))
-  (pad 1 thru_hole roundrect (at 0 2.54) (size 2.032 2.032) (drill 1.143) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-92.wrl
-    (offset (xyz 0 -2.54 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -45))
-  )
-  (model ${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl
-    (offset (xyz 0 2.54 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
+(footprint "TO92TO220"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Regulator TO92/TO220 series LM78xxx")
+	(tags "TR TO92/TO220")
+	(property "Reference" "REF**"
+		(at 3.81 -4.699 90)
+		(layer "F.SilkS")
+		(uuid "3a7f04cb-5746-4946-9cbb-c44934efd093")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "78L06"
+		(at -3.175 -2.286 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ff6baf7d-af9c-41f2-843c-d3d36789f3f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87d38eda-ccbe-4d71-80c7-d1243c9eda63")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b7601bd-4a57-4681-90ba-31548ceef3c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "427d5c42-f769-49b1-9bdc-20df536a0ce6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 0)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fcc8fa50-c3fb-4f33-b8ea-6a926ceeee2b")
+	)
+	(fp_line
+		(start -2.54 2.54)
+		(end -1.27 3.81)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d3e447b-8728-43a5-b7c5-a17158fd6f03")
+	)
+	(fp_line
+		(start -1.905 -4.445)
+		(end 1.905 -4.445)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31256d27-da24-43b4-836b-b0d7bf475c24")
+	)
+	(fp_line
+		(start -1.905 4.445)
+		(end -1.905 -4.445)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a4cdc2e-32ac-46f1-8946-f0276c8a9e2e")
+	)
+	(fp_line
+		(start -1.27 3.81)
+		(end 0 3.81)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b2fcae1-a3de-4ebd-a1e0-63d0b477089f")
+	)
+	(fp_line
+		(start 0 -2.54)
+		(end -2.54 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6141e4d9-cfe7-4487-8ffe-bfafc069834a")
+	)
+	(fp_line
+		(start 0 3.81)
+		(end 3.81 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66d6650a-f4bb-431c-9889-dd22a8522333")
+	)
+	(fp_line
+		(start 1.905 -4.445)
+		(end 1.905 4.445)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e11fed1-da87-48c0-a49b-b36176a7fa7d")
+	)
+	(fp_line
+		(start 1.905 -4.445)
+		(end 2.54 -4.445)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e4c112c-0efc-465e-9fb5-fd006b1c8879")
+	)
+	(fp_line
+		(start 1.905 4.445)
+		(end -1.905 4.445)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5bd71fec-3da7-444d-bc60-2133ffb41cc4")
+	)
+	(fp_line
+		(start 2.54 -4.445)
+		(end 2.54 4.445)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd5c6704-8164-45f0-9aba-3441b8b764bd")
+	)
+	(fp_line
+		(start 2.54 -2.54)
+		(end 0 -2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "356790ae-cfeb-4aca-bc0f-336546d26c84")
+	)
+	(fp_line
+		(start 2.54 4.445)
+		(end 1.905 4.445)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5871328d-9cf2-40e1-a5c8-bd2dc251a1b5")
+	)
+	(fp_line
+		(start 3.81 -1.27)
+		(end 2.54 -2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f1b54a9-9983-456d-b06f-91ef062f5182")
+	)
+	(fp_line
+		(start 3.81 0)
+		(end 3.81 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1e8e040-1dff-43cf-93e7-bd2db468e1d6")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 2.54)
+		(size 2.032 2.032)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "b5d04756-9a29-485b-b7be-e929c298da82")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f79ea79-f43b-42f1-8e11-d5fbb342bc96")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -2.54)
+		(size 2.032 2.032)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be2e92ba-261e-4aae-927e-1a07da25e8ec")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.6256 1.6256)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77d38662-9164-4f3d-8b75-8ac72cc10873")
+	)
+	(model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-92.wrl"
+		(offset
+			(xyz 0 -2.54 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -45)
+		)
+	)
+	(model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
+		(offset
+			(xyz 0 2.54 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )
