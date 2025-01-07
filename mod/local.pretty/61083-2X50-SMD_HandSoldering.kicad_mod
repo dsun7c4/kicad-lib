@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "9ea29d15-5c76-47e8-a75d-0ca84185943c")
@@ -40,7 +40,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "0c0dad6c-0533-4a22-87e1-6b06bc25a906")
@@ -52,7 +52,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "aad80ba9-5ca5-43bc-bb7c-cdf0d8a27543")
@@ -285,8 +285,8 @@
 		(uuid "13ca4a8f-1eec-4bd2-92e0-bc57e5ae3eeb")
 	)
 	(fp_line
-		(start -23.4 -3.55)
-		(end -23.4 3.55)
+		(start -23.4 -4.45)
+		(end -23.4 4.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -295,8 +295,8 @@
 		(uuid "6c6b026f-684c-4fcd-842d-7affca8e945f")
 	)
 	(fp_line
-		(start -23.4 3.55)
-		(end 23.4 3.55)
+		(start -23.4 4.45)
+		(end 23.4 4.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -305,8 +305,8 @@
 		(uuid "23e67e42-e9ed-4ec4-b43d-cf99c5fbb18e")
 	)
 	(fp_line
-		(start 23.4 -3.55)
-		(end -23.4 -3.55)
+		(start 23.4 -4.45)
+		(end -23.4 -4.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -315,8 +315,8 @@
 		(uuid "1a5df213-6878-4099-a639-f2d9c155efa8")
 	)
 	(fp_line
-		(start 23.4 3.55)
-		(end 23.4 -3.55)
+		(start 23.4 4.45)
+		(end 23.4 -4.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -897,7 +897,7 @@
 		(uuid "04c9b4d7-7f9a-41b8-b60c-ba480cb746d1")
 	)
 	(fp_text user "1"
-		(at -20.6 -3.9)
+		(at -20.6 -3.9 0)
 		(layer "F.SilkS")
 		(uuid "001581d4-21fb-40df-828e-a9512b796776")
 		(effects
@@ -908,7 +908,7 @@
 		)
 	)
 	(fp_text user "99"
-		(at 20.8 -3.9)
+		(at 20.8 -3.9 0)
 		(layer "F.SilkS")
 		(uuid "06028ff3-82b3-4c78-91b0-2b2c0ad88f23")
 		(effects
@@ -919,7 +919,7 @@
 		)
 	)
 	(fp_text user "100"
-		(at 21.3 3.9)
+		(at 21.3 3.9 0)
 		(layer "F.SilkS")
 		(uuid "14a22b73-4a14-4cfc-914f-619fe0924635")
 		(effects
@@ -930,7 +930,7 @@
 		)
 	)
 	(fp_text user "2"
-		(at -20.5 3.9)
+		(at -20.5 3.9 0)
 		(layer "F.SilkS")
 		(uuid "48bad607-ade8-4a5e-9234-a3b86dd47e8a")
 		(effects
