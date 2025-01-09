@@ -488,7 +488,7 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.1225490196)
 		(uuid "9576a185-8f39-4e66-a663-68dd5d289e69")
 	)
 	(pad "1" thru_hole roundrect
@@ -497,7 +497,7 @@
 		(drill 1.02)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.1225490196)
 		(uuid "45f3b5cd-29f5-4b45-9827-36a30b5a9d56")
 	)
 	(pad "2" thru_hole circle
