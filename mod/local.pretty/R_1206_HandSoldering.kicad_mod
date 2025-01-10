@@ -85,8 +85,8 @@
 		(uuid "060c5612-bc0f-46fe-a843-ce5732710589")
 	)
 	(fp_line
-		(start -3.25 -1.11)
-		(end -3.25 1.1)
+		(start -2.45 -1.1)
+		(end -2.45 1.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "c5cb8fef-bed5-4159-9709-1c8b40e3d48e")
 	)
 	(fp_line
-		(start -3.25 -1.11)
-		(end 3.25 -1.11)
+		(start -2.45 -1.1)
+		(end 2.45 -1.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "ac5cb432-6b59-4e90-83f3-fb8eeb61939c")
 	)
 	(fp_line
-		(start 3.25 1.1)
-		(end -3.25 1.1)
+		(start 2.45 1.1)
+		(end -2.45 1.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "5159ca1f-30bb-49aa-8ed3-28b2d6a89163")
 	)
 	(fp_line
-		(start 3.25 1.1)
-		(end 3.25 -1.11)
+		(start 2.45 1.1)
+		(end 2.45 -1.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -175,16 +175,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.6 0)
 		(size 1.2 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "2f4c3b0f-65ed-414e-a496-4b58fea0a54f")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.6 0)
 		(size 1.2 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "f6a6b123-6dad-4dbf-bc49-6f8bd3082596")
 	)
 	(model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"

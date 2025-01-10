@@ -145,8 +145,8 @@
 		(uuid "8491c21a-3fae-49c2-ad72-2549faae397c")
 	)
 	(fp_line
-		(start -1.75 -1.125)
-		(end -1.75 1.125)
+		(start -1.68 -0.88)
+		(end -1.68 0.88)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -155,8 +155,8 @@
 		(uuid "bbaffb52-6d91-437f-9390-94f1935b0ec7")
 	)
 	(fp_line
-		(start -1.75 -1.125)
-		(end 1.75 -1.125)
+		(start -1.68 -0.88)
+		(end 1.68 -0.88)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -165,8 +165,8 @@
 		(uuid "d13bf70a-05d5-456a-bf00-c1dc3a3aa0f8")
 	)
 	(fp_line
-		(start -1.75 1.125)
-		(end 1.75 1.125)
+		(start -1.68 0.88)
+		(end 1.68 0.88)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -175,8 +175,8 @@
 		(uuid "83ecf9f6-c91b-415c-a33e-05e165f33b7b")
 	)
 	(fp_line
-		(start 1.75 -1.125)
-		(end 1.75 1.125)
+		(start 1.68 -0.88)
+		(end 1.68 0.88)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -295,16 +295,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.115 0)
 		(size 0.63 0.83)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "7c58b374-52ea-41cc-b65b-2b6856259527")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.115 0)
 		(size 0.63 0.83)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "c59b2ac7-b3ec-45a4-beec-58f787c88671")
 	)
 	(model "${KICAD_USER_MOD_DIR}/local.pretty/packages3d/MM3ZxxxT1G.wrl"

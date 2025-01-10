@@ -6,7 +6,7 @@
 	(descr "Capacitor SMD 1206, hand soldering")
 	(tags "capacitor 1206")
 	(property "Reference" "REF**"
-		(at 0 -2.3 0)
+		(at 0 -1.7 0)
 		(layer "F.SilkS")
 		(uuid "ef1e732e-60b4-47d0-ba84-8308ef77e9fd")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "C_1206_HandSoldering"
-		(at 0 2.3 0)
+		(at 0 1.8 0)
 		(layer "F.Fab")
 		(uuid "d032f857-f072-461e-be4f-f98c83c0610b")
 		(effects
@@ -85,8 +85,8 @@
 		(uuid "21598ca9-4845-4708-b021-d7b6122992fd")
 	)
 	(fp_line
-		(start -2.5 -1.15)
-		(end -2.5 1.15)
+		(start -2.45 -1.05)
+		(end -2.45 1.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "f91ddf61-a1a0-433b-ad8b-0a23db5eab5d")
 	)
 	(fp_line
-		(start -2.5 -1.15)
-		(end 2.5 -1.15)
+		(start -2.45 -1.05)
+		(end 2.45 -1.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "30acdb75-e925-4f22-ae3c-3fb0994d8301")
 	)
 	(fp_line
-		(start -2.5 1.15)
-		(end 2.5 1.15)
+		(start -2.45 1.05)
+		(end 2.45 1.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "7ecba7be-5062-4dfa-9421-1b7d1f642156")
 	)
 	(fp_line
-		(start 2.5 -1.15)
-		(end 2.5 1.15)
+		(start 2.45 -1.05)
+		(end 2.45 1.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -175,16 +175,18 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.6 0)
 		(size 1.2 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "cb5011dc-e5ec-4a3e-bfde-2eef1c6bae86")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.6 0)
 		(size 1.2 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
 		(uuid "a0addb25-5eae-4df4-94cd-11a945b8e3d4")
 	)
 	(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
