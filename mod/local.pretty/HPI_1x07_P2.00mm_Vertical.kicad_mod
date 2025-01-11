@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -125,8 +128,8 @@
 		(uuid "6e37a93a-3ad2-4740-8e5a-3c306d2a55f4")
 	)
 	(fp_line
-		(start -3.15 -2.2)
-		(end -3.15 14.2)
+		(start -3.2 -2.25)
+		(end -3.2 14.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,8 +138,8 @@
 		(uuid "5ea2cdf1-917a-4eaa-8648-f1e2c1bfddb0")
 	)
 	(fp_line
-		(start -3.15 14.2)
-		(end 1.95 14.2)
+		(start -3.2 14.25)
+		(end 2 14.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +148,8 @@
 		(uuid "cdc8de46-922a-4c64-9750-57a0fc87f750")
 	)
 	(fp_line
-		(start 1.95 -2.2)
-		(end -3.15 -2.2)
+		(start 2 -2.25)
+		(end -3.2 -2.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -155,8 +158,8 @@
 		(uuid "2c267f72-7212-4d0c-9304-5e31add052c2")
 	)
 	(fp_line
-		(start 1.95 14.2)
-		(end 1.95 -2.2)
+		(start 2 14.25)
+		(end 2 -2.25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -225,12 +228,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 1.35 1.35)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1851851852)
 		(uuid "233f3a12-fdaa-45d5-87a1-c19f1654c78c")
 	)
 	(pad "2" thru_hole oval

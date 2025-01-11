@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -2495,7 +2498,7 @@
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.1640419948)
 		(uuid "f9423d06-d8b4-464a-82f1-df2862b0b24f")
 	)
 	(pad "2" thru_hole circle

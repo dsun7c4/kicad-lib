@@ -6,7 +6,7 @@
 	(descr "Through hole pin header and edge")
 	(tags "pin header")
 	(property "Reference" "REF**"
-		(at 0 -5.1 0)
+		(at 0 -2.54 0)
 		(layer "F.SilkS")
 		(uuid "702b971f-a0a2-447c-9cc5-9cc9b48ddfd6")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "CONN_01X08_EDGE"
-		(at 0 -3.1 0)
+		(at 0 20.32 0)
 		(layer "F.Fab")
 		(uuid "126d8256-596c-4d3d-bb07-b951f810b5a3")
 		(effects
@@ -115,8 +115,8 @@
 		(uuid "b760e097-1467-4b0c-9b6d-7fc91c4040fc")
 	)
 	(fp_line
-		(start -3.802 -1.75)
-		(end -3.802 19.55)
+		(start -3.56 -1.52)
+		(end -3.56 19.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "1a8c9a2e-530a-40be-a5c3-0a22c2698360")
 	)
 	(fp_line
-		(start -3.802 -1.75)
-		(end 1.75 -1.75)
+		(start -3.56 -1.52)
+		(end 1.52 -1.52)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,8 +135,8 @@
 		(uuid "375c58d1-6284-495c-b317-d1f112f74339")
 	)
 	(fp_line
-		(start -3.802 19.55)
-		(end 1.75 19.55)
+		(start -3.56 19.3)
+		(end 1.52 19.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,14 +145,77 @@
 		(uuid "30efd96e-d636-44e9-9a35-6f2c7d075001")
 	)
 	(fp_line
-		(start 1.75 -1.75)
-		(end 1.75 19.55)
+		(start 1.52 -1.52)
+		(end 1.52 19.3)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "a79b7237-9029-435f-96f8-5e1c8001a4a0")
+	)
+	(fp_line
+		(start -3.175 19.05)
+		(end -3.175 -0.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2d963558-9135-40df-a30a-0a6130a60277")
+	)
+	(fp_line
+		(start -2.175 -1.27)
+		(end -3.175 -0.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ec30c46b-0a14-43b9-8bc8-9f87e1f69962")
+	)
+	(fp_line
+		(start -2.175 -1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5fcabc94-e2bd-4b6d-b419-cd0c7a6605fb")
+	)
+	(fp_line
+		(start 1.27 -1.27)
+		(end 1.27 19.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a25b8bc0-5a67-4dd6-b6c9-9f971697cb67")
+	)
+	(fp_line
+		(start 1.27 19.05)
+		(end -3.175 19.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9315ed29-0e94-4631-bf7f-9a0c3710d5fd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 13.97 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e73a927b-9048-4660-9779-bbe1296cbcf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" smd rect
 		(at -1.651 0)

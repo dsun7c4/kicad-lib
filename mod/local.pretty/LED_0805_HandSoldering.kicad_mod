@@ -145,8 +145,8 @@
 		(uuid "eaab712e-1c29-417e-a4d8-824543d470a5")
 	)
 	(fp_line
-		(start -2.054 -0.904)
-		(end -2.054 0.904)
+		(start -2.05 -0.88)
+		(end -2.05 0.88)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -155,8 +155,8 @@
 		(uuid "5784b82e-8df7-4d81-ac30-0fab2ff89cfe")
 	)
 	(fp_line
-		(start -2.054 -0.904)
-		(end 2.054 -0.904)
+		(start -2.05 -0.88)
+		(end 2.05 -0.88)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -165,8 +165,8 @@
 		(uuid "1210689c-b86d-40b0-bc62-5b176fae8365")
 	)
 	(fp_line
-		(start -2.054 0.904)
-		(end 2.054 0.904)
+		(start -2.05 0.88)
+		(end 2.05 0.88)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -175,8 +175,8 @@
 		(uuid "d3ce3dcc-90a8-4f0c-8779-d2fd6267fb84")
 	)
 	(fp_line
-		(start 2.054 -0.904)
-		(end 2.054 0.904)
+		(start 2.05 -0.88)
+		(end 2.05 0.88)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -205,14 +205,24 @@
 		(uuid "588a5924-6d00-4f65-875e-ff027a5158d4")
 	)
 	(fp_line
-		(start -0.9 -0.625)
-		(end -0.9 0.625)
+		(start -0.925 -0.625)
+		(end -0.925 0.625)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "de5f3a45-6e98-4823-9e12-593af3534809")
+	)
+	(fp_line
+		(start -0.875 -0.625)
+		(end -0.875 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e0a9d0b-1a22-4811-9c66-2d63403786bb")
 	)
 	(fp_line
 		(start -0.8 -0.625)
@@ -259,14 +269,14 @@
 		(at -1.2 0)
 		(size 1.2 1.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.2083333333)
 		(uuid "5019c4c9-3375-4929-8fc1-5716b17c233e")
 	)
 	(pad "2" smd roundrect
 		(at 1.2 0)
 		(size 1.2 1.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.2083333333)
 		(uuid "9e9f245c-6197-4a72-b181-7e468dadfd6e")
 	)
 	(model "${KILOCALMOD}/local.pretty/packages3d/ltst-c171ckt.wrl"
