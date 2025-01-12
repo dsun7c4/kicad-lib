@@ -18,8 +18,7 @@
 	)
 	(property "Value" "MRA400xT3G"
 		(at 0 2.5 0)
-		(layer "F.SilkS")
-		(hide yes)
+		(layer "F.Fab")
 		(uuid "e901a680-7b85-42ad-aa69-db33f35d6a57")
 		(effects
 			(font

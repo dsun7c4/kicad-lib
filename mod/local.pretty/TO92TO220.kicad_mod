@@ -18,8 +18,7 @@
 	)
 	(property "Value" "TO92TO220"
 		(at 4.826 -3.175 0)
-		(layer "F.SilkS")
-		(hide yes)
+		(layer "F.Fab")
 		(uuid "ff6baf7d-af9c-41f2-843c-d3d36789f3f7")
 		(effects
 			(font
@@ -276,7 +275,7 @@
 		(uuid "e37adb75-c93a-4fba-8d5a-077c82179ead")
 	)
 	(fp_line
-		(start -0.139995 -2.789996)
+		(start -0.11 -2.79)
 		(end -0.77 -2.16)
 		(stroke
 			(width 0.05)
@@ -514,6 +513,19 @@
 		)
 		(layer "F.Fab")
 		(uuid "52799a1a-255f-468c-a0db-59ff8fdc214a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.8956 0.5334 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "624fcb90-d785-4e76-beb2-29344d895ca3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0 270)
