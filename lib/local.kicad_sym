@@ -206,6 +206,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -214,6 +215,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "SIM Connector 6-pin"
@@ -389,7 +391,7 @@
 			)
 		)
 		(symbol "475500001_1_1"
-			(pin output line
+			(pin passive line
 				(at -12.7 -2.54 0)
 				(length 5.08)
 				(name "~"
@@ -407,7 +409,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -12.7 0 0)
 				(length 5.08)
 				(name "~"
@@ -425,7 +427,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -12.7 2.54 0)
 				(length 5.08)
 				(name "~"
@@ -443,7 +445,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 12.7 -2.54 180)
 				(length 5.08)
 				(name "~"
@@ -461,8 +463,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 12.7 2.54 180)
+			(pin passive line
+				(at 12.7 0 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -479,8 +481,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 0 180)
+			(pin passive line
+				(at 12.7 2.54 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -527,6 +529,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -535,6 +538,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Bergstack 0.8mm 2x50 HDR"
@@ -2997,6 +3001,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -3005,6 +3010,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "8 bits Bus Buffer 3 State out"
@@ -3443,6 +3449,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -3451,6 +3458,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "8bits Buffer/Line Driver 3 state Out"
@@ -3948,8 +3956,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -3958,6 +3966,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "AD5662, Single 16-bit nanoDAC, 2.7V to 5.5V, 250uA"
@@ -4186,6 +4195,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4194,6 +4204,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "±0.5 deg C 16-bit Digital I2C Temperature Sensor"
@@ -4412,6 +4423,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4420,6 +4432,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Adafruit Ultimate GPS Breakout 66 channel w/10 Hz updates"
@@ -4666,9 +4679,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4678,6 +4691,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -4978,6 +4992,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -4986,6 +5001,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -5134,6 +5150,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -5142,6 +5159,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Connector 2x8 with mounting pad"
@@ -5695,6 +5713,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -5703,6 +5722,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "PWM Fan Connector 4-pin"
@@ -5870,6 +5890,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -5878,6 +5899,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "OCXO Stratum 3E High Stability"
@@ -6059,6 +6081,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6067,6 +6090,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "OCXO Stratum 3E High Stability"
@@ -6284,6 +6308,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6292,6 +6317,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "CX210 OCXO Cover"
@@ -6384,8 +6410,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6394,6 +6420,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converter"
@@ -6630,6 +6657,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6638,6 +6666,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Unregulated, isolated DC to DC converter"
@@ -6784,6 +6813,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6792,6 +6822,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "I2C-Integrated RTC/TCXO/Crystal"
@@ -7163,6 +7194,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7171,6 +7203,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "HCMOS 5 x 3.2mm 3.3V VCXO"
@@ -7370,6 +7403,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7378,6 +7412,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Inductor"
@@ -7554,6 +7589,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -7562,6 +7598,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "0.80\" 7 Segment Dual Digit Display"
@@ -8166,6 +8203,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8174,6 +8212,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -8311,6 +8350,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8319,6 +8359,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "10MHz, Low Noise, Low Voltage, and Low Power Operational Amplifier"
@@ -8540,6 +8581,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8548,6 +8590,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "3A Ultra Low Dropout Linear Regulators"
@@ -8737,6 +8780,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8745,6 +8789,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Quad I2C Voltage, Current and Temperature Monitor"
@@ -9007,7 +9052,6 @@
 			(effects
 				(font
 					(size 0.889 0.889)
-					(italic yes)
 				)
 				(hide yes)
 			)
@@ -9018,6 +9062,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "200mA Buck-Boost Synchronous DC/DC Converters"
@@ -9254,6 +9299,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9262,6 +9308,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Ultra-Low Quiescent Current 150mA μCap Low Dropout Regulator"
@@ -9442,6 +9489,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9450,6 +9498,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Microzed Mechanical Mounting Holes"
@@ -9541,6 +9590,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9549,6 +9599,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "TinyLogic® UHS Buffer with Three-State Output"
@@ -9722,6 +9773,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9730,6 +9782,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Dual Op amp (low power)"
@@ -9942,6 +9995,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -9950,6 +10004,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "LadyBird-1 GPS Antenna Module"
@@ -10393,6 +10448,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -10401,6 +10457,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator"
@@ -10616,6 +10673,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -10624,6 +10682,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "0.80\" 16 Segment Single Digit Display"
@@ -11381,7 +11440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -11770,6 +11829,7 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -11778,6 +11838,7 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "PTC"
@@ -12053,6 +12114,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -12061,6 +12123,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -12615,6 +12678,7 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -12623,6 +12687,7 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor Current Sense"
@@ -13003,6 +13068,7 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -13011,6 +13077,7 @@
 				(font
 					(size 0.762 0.762)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
@@ -13270,6 +13337,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -13278,6 +13346,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "16-Channel, Constant-Current LED Driver"
@@ -13788,6 +13857,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -13796,6 +13866,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "16-Channel, Constant-Current LED Driver"
@@ -14306,6 +14377,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -14314,6 +14386,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "T0-220 Vertical Heatsink"
@@ -14668,7 +14741,6 @@
 			(effects
 				(font
 					(size 0.889 0.889)
-					(italic yes)
 				)
 				(hide yes)
 			)
@@ -14679,6 +14751,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-modeTM"
@@ -16343,6 +16416,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -16351,6 +16425,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -16550,6 +16625,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -16558,6 +16634,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -16759,6 +16836,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -16767,6 +16845,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -16865,6 +16944,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -16873,6 +16953,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -16971,6 +17052,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -16979,6 +17061,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -17077,6 +17160,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -17085,6 +17169,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -17183,6 +17268,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -17191,6 +17277,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -17287,6 +17374,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -17295,6 +17383,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Part Template"
@@ -17443,6 +17532,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -17451,6 +17541,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "RECOM 12V to 9V DC-DC converter"
