@@ -5937,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "CX210*"
+		(property "ki_fp_filters" "CX205*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12651,8 +12651,7 @@
 	(symbol "R_CSM2512"
 		(pin_numbers hide)
 		(pin_names
-			(offset 0)
-		)
+			(offset 0) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12696,6 +12695,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Power" "1W"
@@ -13001,24 +13001,6 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -5.08 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-				(number "~"
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 2.54 5.08 270)
 				(length 1.27)
 				(name "~"
@@ -13028,7 +13010,25 @@
 						)
 					)
 				)
-				(number "~"
+				(number "3"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.524 1.524)

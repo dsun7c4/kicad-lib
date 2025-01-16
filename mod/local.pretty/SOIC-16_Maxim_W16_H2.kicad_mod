@@ -96,7 +96,7 @@
 	)
 	(fp_line
 		(start -3.81 5.2578)
-		(end -3.81 4.826)
+		(end -3.81 4.85)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -116,7 +116,7 @@
 	)
 	(fp_line
 		(start 3.81 -5.2578)
-		(end 3.81 -4.826)
+		(end 3.81 -4.85)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -126,7 +126,7 @@
 	)
 	(fp_line
 		(start 3.81 5.2578)
-		(end 3.81 4.826)
+		(end 3.81 4.85)
 		(stroke
 			(width 0.15)
 			(type solid)

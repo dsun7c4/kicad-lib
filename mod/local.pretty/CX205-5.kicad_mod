@@ -247,6 +247,30 @@
 			)
 		)
 	)
+	(pad "" smd circle
+		(at 3.81 3.81)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "acb82006-a7e3-47aa-bc8d-bcb341754cc0")
+	)
+	(pad "" smd circle
+		(at 3.81 15.24)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ef56aa55-7c22-4dd5-8d63-efe4f2ff6628")
+	)
+	(pad "" smd circle
+		(at 15.24 3.81)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "57bd28cc-bfb6-4e23-9d70-4e5057345691")
+	)
+	(pad "" smd circle
+		(at 15.24 15.24)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "0c2766b8-d364-469e-9e11-efbbe95a4ed4")
+	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 1.778 1.778)
@@ -287,30 +311,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1afba825-8e7d-4d11-b21b-0ee521cbca7f")
-	)
-	(pad "~" smd circle
-		(at 3.81 3.81)
-		(size 2.5 2.5)
-		(layers "F.Cu" "F.Mask")
-		(uuid "acb82006-a7e3-47aa-bc8d-bcb341754cc0")
-	)
-	(pad "~" smd circle
-		(at 3.81 15.24)
-		(size 2.5 2.5)
-		(layers "F.Cu" "F.Mask")
-		(uuid "ef56aa55-7c22-4dd5-8d63-efe4f2ff6628")
-	)
-	(pad "~" smd circle
-		(at 15.24 3.81)
-		(size 2.5 2.5)
-		(layers "F.Cu" "F.Mask")
-		(uuid "57bd28cc-bfb6-4e23-9d70-4e5057345691")
-	)
-	(pad "~" smd circle
-		(at 15.24 15.24)
-		(size 2.5 2.5)
-		(layers "F.Cu" "F.Mask")
-		(uuid "0c2766b8-d364-469e-9e11-efbbe95a4ed4")
 	)
 	(model "${KILOCALMOD}/local.pretty/packages3d/cx205-5.wrl"
 		(offset
