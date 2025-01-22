@@ -118,7 +118,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -246,17 +246,6 @@
 			)
 		)
 		(symbol "475500001_0_1"
-			(rectangle
-				(start -7.62 -5.08)
-				(end 7.62 5.08)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start -5.715 -1.905)
 				(end -1.905 -3.175)
@@ -391,6 +380,17 @@
 			)
 		)
 		(symbol "475500001_1_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -12.7 -2.54 0)
 				(length 5.08)
@@ -589,6 +589,8 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "61083_02X50_1_1"
 			(polyline
 				(pts
 					(xy 1.27 64.77) (xy 3.81 64.77) (xy 3.81 -64.77) (xy 1.27 -64.77) (xy 1.27 -66.04) (xy -3.81 -66.04)
@@ -599,11 +601,9 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "61083_02X50_1_1"
 			(pin passive line
 				(at 7.62 62.23 180)
 				(length 3.81)
@@ -3408,7 +3408,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 -5.08 0)
+			(at -2.54 5.842 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3416,7 +3416,7 @@
 			)
 		)
 		(property "Value" "74LVC244"
-			(at 2.54 -10.16 0)
+			(at 0 -7.112 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3468,10 +3468,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "74LVC244_0_0"
+		(symbol "74LVC244_1_0"
 			(pin power_in line
-				(at -7.62 -13.97 90)
-				(length 0) hide
+				(at 0 -19.05 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -3488,8 +3488,8 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 13.97 90)
-				(length 0) hide
+				(at 0 19.05 270)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
@@ -3506,7 +3506,7 @@
 				)
 			)
 		)
-		(symbol "74LVC244_0_1"
+		(symbol "74LVC244_1_1"
 			(rectangle
 				(start -10.16 13.97)
 				(end 10.16 -13.97)
@@ -3515,11 +3515,9 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "74LVC244_1_1"
 			(pin input inverted
 				(at -17.78 -10.16 0)
 				(length 7.62)
@@ -3854,7 +3852,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 14.605 0)
+			(at -9.144 14.478 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3863,7 +3861,7 @@
 			)
 		)
 		(property "Value" "74LVC541"
-			(at 0 -14.605 0)
+			(at -8.382 -14.732 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3916,56 +3914,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "74LVC541_0_0"
-			(pin power_in line
-				(at -5.08 -13.97 90)
-				(length 0) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 13.97 270)
-				(length 0) hide
-				(name "VCC"
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-			)
-		)
 		(symbol "74LVC541_0_1"
-			(rectangle
-				(start -10.16 13.97)
-				(end 10.16 -13.97)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 7.62) (xy -3.81 7.62)
@@ -4027,7 +3976,56 @@
 				)
 			)
 		)
+		(symbol "74LVC541_1_0"
+			(pin power_in line
+				(at 0 -19.05 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 19.05 270)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+		)
 		(symbol "74LVC541_1_1"
+			(rectangle
+				(start -10.16 13.97)
+				(end 10.16 -13.97)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin input inverted
 				(at -17.78 -10.16 0)
 				(length 7.62)
@@ -4433,7 +4431,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AD5662_0_1"
+		(symbol "AD5662_1_1"
 			(polyline
 				(pts
 					(xy -11.43 6.35) (xy 5.08 6.35) (xy 11.43 0) (xy 5.08 -6.35) (xy -11.43 -6.35) (xy -11.43 6.35)
@@ -4443,11 +4441,9 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "AD5662_1_1"
 			(pin power_in line
 				(at -2.54 10.16 270)
 				(length 3.81)
@@ -4662,20 +4658,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "ADT7410_0_1"
+		(symbol "ADT7410_1_1"
 			(rectangle
-				(start -8.89 -8.89)
-				(end 8.89 8.89)
+				(start -8.89 8.89)
+				(end 8.89 -8.89)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "ADT7410_1_1"
 			(pin input line
 				(at -12.7 2.54 0)
 				(length 3.81)
@@ -4899,20 +4893,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "Adafruit746_0_1"
+		(symbol "Adafruit746_1_1"
 			(rectangle
-				(start -7.62 -10.16)
-				(end 7.62 10.16)
+				(start -7.62 10.16)
+				(end 7.62 -10.16)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "Adafruit746_1_1"
 			(pin output line
 				(at 12.7 2.54 180)
 				(length 5.08)
@@ -5707,17 +5699,6 @@
 				)
 			)
 			(rectangle
-				(start -2.54 10.16)
-				(end 2.54 -10.16)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
 				(start 1.27 -8.763)
 				(end 2.54 -9.017)
 				(stroke
@@ -5807,6 +5788,17 @@
 			)
 		)
 		(symbol "CONN_02X08_MTG_1_1"
+			(rectangle
+				(start -2.54 10.16)
+				(end 2.54 -10.16)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at 0 -13.97 90)
 				(length 3.81)
@@ -6190,17 +6182,6 @@
 			)
 		)
 		(symbol "CONN_FAN_PWM_0_1"
-			(rectangle
-				(start -2.54 6.35)
-				(end 2.54 -6.35)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 2.54 1.27) (xy 1.27 1.27) (xy 1.27 -3.81) (xy 2.54 -3.81)
@@ -6215,6 +6196,17 @@
 			)
 		)
 		(symbol "CONN_FAN_PWM_1_1"
+			(rectangle
+				(start -2.54 6.35)
+				(end 2.54 -6.35)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at -5.08 -3.81 0)
 				(length 2.54)
@@ -6565,20 +6557,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "CX210_0_1"
+		(symbol "CX210_1_1"
 			(rectangle
-				(start -5.08 -6.35)
-				(end 5.08 6.35)
+				(start -5.08 6.35)
+				(end 5.08 -6.35)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "CX210_1_1"
 			(pin input line
 				(at -10.16 0 0)
 				(length 5.08)
@@ -6794,7 +6784,7 @@
 				)
 			)
 		)
-		(symbol "CX210_Cover_0_1"
+		(symbol "CX210_Cover_1_1"
 			(rectangle
 				(start -6.35 3.81)
 				(end 6.35 -3.81)
@@ -6803,7 +6793,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -6895,7 +6885,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DAC8830_0_1"
+		(symbol "DAC8830_1_1"
 			(polyline
 				(pts
 					(xy -11.43 6.35) (xy 5.08 6.35) (xy 11.43 0) (xy 5.08 -6.35) (xy -11.43 -6.35) (xy -11.43 6.35)
@@ -6905,11 +6895,9 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "DAC8830_1_1"
 			(pin output line
 				(at 15.24 0 180)
 				(length 3.81)
@@ -7124,7 +7112,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DC-DC_0_1"
+		(symbol "DC-DC_1_1"
 			(rectangle
 				(start -6.35 5.08)
 				(end 6.35 -5.08)
@@ -7133,11 +7121,9 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "DC-DC_1_1"
 			(pin power_in line
 				(at -13.97 -2.54 0)
 				(length 7.62)
@@ -7289,20 +7275,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "DS3231_0_1"
+		(symbol "DS3231_1_1"
 			(rectangle
-				(start -11.43 -11.43)
-				(end 11.43 11.43)
+				(start -11.43 11.43)
+				(end 11.43 -11.43)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "DS3231_1_1"
 			(pin open_collector line
 				(at 15.24 8.89 180)
 				(length 3.81)
@@ -7678,20 +7662,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "FVXO-HC53_0_1"
+		(symbol "FVXO-HC53_1_1"
 			(rectangle
-				(start -7.62 -6.35)
-				(end 7.62 6.35)
+				(start -7.62 6.35)
+				(end 7.62 -6.35)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "FVXO-HC53_1_1"
 			(pin input line
 				(at -12.7 0 0)
 				(length 5.08)
@@ -8148,7 +8130,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(polyline
@@ -8808,6 +8790,14 @@
 				(hide yes)
 			)
 		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "opamp"
 			(at 0 0 0)
 			(effects
@@ -8817,7 +8807,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LMV722_0_1"
+		(symbol "LMV722_1_1"
 			(polyline
 				(pts
 					(xy -7.62 6.35) (xy 5.08 0) (xy -7.62 -6.35) (xy -7.62 6.35)
@@ -8827,47 +8817,9 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -7.62 90)
-				(length 3.81)
-				(name "V-"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 7.62 270)
-				(length 3.81)
-				(name "V+"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LMV722_1_1"
 			(pin output line
 				(at 7.62 0 180)
 				(length 2.54)
@@ -8924,6 +8876,18 @@
 			)
 		)
 		(symbol "LMV722_2_1"
+			(polyline
+				(pts
+					(xy -7.62 6.35) (xy 5.08 0) (xy -7.62 -6.35) (xy -7.62 6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin input line
 				(at -10.16 -2.54 0)
 				(length 2.54)
@@ -8971,6 +8935,44 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LMV722_3_1"
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 7.62 270)
+				(length 3.81)
+				(name "V+"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -9073,20 +9075,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "LP3853_0_1"
+		(symbol "LP3853_1_1"
 			(rectangle
-				(start -10.16 -5.08)
-				(end 10.16 5.08)
+				(start -10.16 5.08)
+				(end 10.16 -5.08)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "LP3853_1_1"
 			(pin input line
 				(at -15.24 -2.54 0)
 				(length 5.08)
@@ -9256,20 +9256,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "LTC2990_0_1"
+		(symbol "LTC2990_1_1"
 			(rectangle
-				(start -11.43 -11.43)
-				(end 11.43 11.43)
+				(start -11.43 11.43)
+				(end 11.43 -11.43)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "LTC2990_1_1"
 			(pin passive line
 				(at -2.54 15.24 270)
 				(length 3.81)
@@ -9520,7 +9518,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LTC3531_0_1"
+		(symbol "LTC3531_1_1"
 			(rectangle
 				(start -8.89 8.89)
 				(end 8.89 -6.35)
@@ -9529,11 +9527,9 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "LTC3531_1_1"
 			(pin passive line
 				(at -7.62 12.7 270)
 				(length 3.81)
@@ -9782,20 +9778,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "MIC5225_0_1"
+		(symbol "MIC5225_1_1"
 			(rectangle
-				(start -7.62 -5.08)
-				(end 7.62 5.08)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "MIC5225_1_1"
 			(pin power_in line
 				(at -12.7 2.54 0)
 				(length 5.08)
@@ -9975,7 +9969,7 @@
 				)
 			)
 		)
-		(symbol "Microzed_0_1"
+		(symbol "Microzed_1_1"
 			(rectangle
 				(start -6.35 3.81)
 				(end 6.35 -3.81)
@@ -9984,7 +9978,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -9997,7 +9991,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 2.54 3.175 0)
+			(at 6.096 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,7 +9999,7 @@
 			)
 		)
 		(property "Value" "NC7SZ125"
-			(at 6.35 -2.54 0)
+			(at 6.096 -4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10069,21 +10063,21 @@
 		(symbol "NC7SZ125_0_1"
 			(polyline
 				(pts
-					(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					(xy -5.08 6.35) (xy -5.08 -6.35) (xy 7.62 0) (xy -5.08 6.35)
 				)
 				(stroke
-					(width 0)
-					(type solid)
+					(width 0.254)
+					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
 		(symbol "NC7SZ125_1_1"
 			(pin input inverted
-				(at 0 5.08 270)
-				(length 3.1242)
+				(at 2.54 7.62 270)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -10100,8 +10094,8 @@
 				)
 			)
 			(pin input line
-				(at -6.35 0 0)
-				(length 2.54)
+				(at -10.16 0 0)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -10118,8 +10112,8 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -3.81 90)
-				(length 0) hide
+				(at -2.54 -10.16 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -10136,8 +10130,8 @@
 				)
 			)
 			(pin tri_state line
-				(at 6.35 0 180)
-				(length 2.54)
+				(at 12.7 0 180)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -10154,8 +10148,8 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 3.81 270)
-				(length 0) hide
+				(at -2.54 10.16 270)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
@@ -10222,6 +10216,14 @@
 				(hide yes)
 			)
 		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "ampliop"
 			(at 0 0 0)
 			(effects
@@ -10231,7 +10233,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "NE5532_0_1"
+		(symbol "NE5532_1_1"
 			(polyline
 				(pts
 					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -10241,47 +10243,9 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -10.16 90)
-				(length 6.35)
-				(name "V-"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 10.16 270)
-				(length 6.35)
-				(name "V+"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-		(symbol "NE5532_1_1"
 			(pin output line
 				(at 12.7 0 180)
 				(length 7.62)
@@ -10338,6 +10302,18 @@
 			)
 		)
 		(symbol "NE5532_2_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin input line
 				(at -12.7 2.54 0)
 				(length 7.62)
@@ -10385,6 +10361,44 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NE5532_3_1"
+			(pin power_in line
+				(at -2.54 -10.16 90)
+				(length 6.35)
+				(name "V-"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 10.16 270)
+				(length 6.35)
+				(name "V+"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -10471,20 +10485,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "PA6H_0_1"
+		(symbol "PA6H_1_1"
 			(rectangle
-				(start -12.7 -20.32)
-				(end 12.7 17.78)
+				(start -12.7 17.78)
+				(end 12.7 -20.32)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "PA6H_1_1"
 			(pin power_in line
 				(at 0 22.86 270)
 				(length 5.08)
@@ -10915,20 +10927,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "PCA9306_0_1"
+		(symbol "PCA9306_1_1"
 			(rectangle
-				(start -10.16 -10.16)
-				(end 10.16 10.16)
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "PCA9306_1_1"
 			(pin power_in line
 				(at 0 -15.24 90)
 				(length 5.08)
@@ -11224,17 +11234,6 @@
 			)
 		)
 		(symbol "PSA08-11SRWA_0_1"
-			(rectangle
-				(start -8.89 12.7)
-				(end 8.89 -15.24)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -4.6482 -6.5786) (xy -1.2446 -2.2606) (xy -1.8034 -5.3848) (xy -5.1816 -9.6774) (xy -4.6482 -6.5786)
@@ -11446,6 +11445,17 @@
 			)
 		)
 		(symbol "PSA08-11SRWA_1_1"
+			(rectangle
+				(start -8.89 12.7)
+				(end 8.89 -15.24)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(text "k"
 				(at -1.4224 3.3782 0)
 				(effects
@@ -13744,7 +13754,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 27.94 0)
+			(at 3.302 27.178 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13752,7 +13762,7 @@
 			)
 		)
 		(property "Value" "TLC59282"
-			(at 0 -27.94 0)
+			(at 3.556 -27.178 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13804,10 +13814,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLC59282_0_0"
+		(symbol "TLC59282_1_0"
 			(pin power_in line
-				(at 0 -25.4 90)
-				(length 0) hide
+				(at -5.08 -30.48 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -13823,24 +13833,9 @@
 					)
 				)
 			)
-		)
-		(symbol "TLC59282_0_1"
-			(rectangle
-				(start -10.16 25.4)
-				(end 10.16 -25.4)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "TLC59282_1_0"
 			(pin power_in line
-				(at 0 25.4 270)
-				(length 0) hide
+				(at 0 30.48 270)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
@@ -13858,6 +13853,17 @@
 			)
 		)
 		(symbol "TLC59282_1_1"
+			(rectangle
+				(start -10.16 25.4)
+				(end 10.16 -25.4)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin output line
 				(at 17.78 2.54 180)
 				(length 7.62)
@@ -14264,7 +14270,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 27.94 0)
+			(at 3.302 27.178 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14272,7 +14278,7 @@
 			)
 		)
 		(property "Value" "TLC59282_REV"
-			(at 0 -27.94 0)
+			(at 3.556 -27.178 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14324,10 +14330,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "TLC59282_REV_0_0"
+		(symbol "TLC59282_REV_1_0"
 			(pin power_in line
-				(at 0 -25.4 90)
-				(length 0) hide
+				(at -5.08 -30.48 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -14343,24 +14349,9 @@
 					)
 				)
 			)
-		)
-		(symbol "TLC59282_REV_0_1"
-			(rectangle
-				(start -10.16 25.4)
-				(end 10.16 -25.4)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "TLC59282_REV_1_0"
 			(pin power_in line
-				(at 0 25.4 270)
-				(length 0) hide
+				(at 0 30.48 270)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
@@ -14378,6 +14369,17 @@
 			)
 		)
 		(symbol "TLC59282_REV_1_1"
+			(rectangle
+				(start -10.16 25.4)
+				(end 10.16 -25.4)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin output line
 				(at 17.78 -10.16 180)
 				(length 7.62)
@@ -14853,7 +14855,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TO220_heatsink_0_1"
+		(symbol "TO220_heatsink_1_1"
 			(rectangle
 				(start -2.54 2.54)
 				(end 2.54 -2.54)
@@ -14862,11 +14864,9 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TO220_heatsink_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -15218,7 +15218,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TPS56428_0_1"
+		(symbol "TPS56428_1_1"
 			(rectangle
 				(start -8.89 8.89)
 				(end 8.89 -8.89)
@@ -15227,11 +15227,9 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TPS56428_1_1"
 			(pin input line
 				(at -12.7 -6.35 0)
 				(length 3.81)
@@ -16876,17 +16874,6 @@
 		)
 		(symbol "USB_A_0_1"
 			(rectangle
-				(start -6.35 -3.81)
-				(end 3.81 3.81)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
 				(start -5.207 -3.81)
 				(end -4.953 -3.048)
 				(stroke
@@ -16932,6 +16919,17 @@
 			)
 		)
 		(symbol "USB_A_1_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at -5.08 -7.62 90)
 				(length 3.81)
@@ -17085,17 +17083,6 @@
 		)
 		(symbol "USB_B_0_1"
 			(rectangle
-				(start -6.35 -3.81)
-				(end 3.81 3.81)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
 				(start -5.207 -3.81)
 				(end -4.953 -3.048)
 				(stroke
@@ -17141,6 +17128,17 @@
 			)
 		)
 		(symbol "USB_B_1_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_out line
 				(at -5.08 -7.62 90)
 				(length 3.81)
